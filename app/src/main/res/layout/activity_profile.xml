@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+   <ImageView
+       android:layout_gravity="center_horizontal"
+       android:src="@drawable/mark"
+       android:layout_width="wrap_content"
+       android:layout_height="100sp"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:text="Nama : Mark Zuckerberg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:text="Title :
+Co-founder and CEO of Meta Platforms (formerly Facebook, Inc.)co-founder and co-CEO of Chan Zuckerberg Initiative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:text="Lahir : Mark Elliot Zuckerberg
+May 14, 1984 (age 37)
+White Plains, New York, U.S"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:textSize="20sp"
+        android:text="Education : Harvard University (dropped out)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

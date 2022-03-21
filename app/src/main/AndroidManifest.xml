@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="and5.abrar.chapter3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chapter3"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Parcel.Dua"
+            android:exported="true" />
+        <activity
+            android:name=".Parcel.Satu"
+            android:exported="true" />
+        <activity
+            android:name=".serializable.Second"
+            android:exported="true" />
+        <activity
+            android:name=".serializable.First"
+            android:exported="true" />
+        <activity
+            android:name=".Mini4"
+            android:exported="true" />
+        <activity
+            android:name=".Mini3"
+            android:exported="true" />
+        <activity
+            android:name=".Mini2"
+            android:exported="true" />
+        <activity
+            android:name=".Mini1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivtyB"
+            android:exported="true" />
+        <activity
+            android:name=".ActivtyA"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="true"
+            android:label="profile" />
+        <activity
+            android:name=".Web"
+            android:exported="true"
+            android:label="web" />
+        <activity
+            android:name=".Beranda"
+            android:exported="true"
+            android:label="beranda" />
+        <activity
+            android:name=".Home"
+            android:exported="true"
+            android:label="home" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:label="login" />
+        <activity
+            android:name=".Outnilai"
+            android:exported="true" />
+        <activity
+            android:name=".Inputnilai"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Latihan"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityLifecycle"
+            android:exported="true" />
+        <activity
+            android:name=".KalkulatorSederhana"
+            android:exported="true" />
+        <activity
+            android:name=".WebView"
+            android:exported="true" />
+        <activity
+            android:name=".HalamanDua"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Latihan">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tampilan1"
+        android:text="Nama Pembeli : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/NamaPembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tampilan1" />
+
+    <TextView
+        android:id="@+id/tampilan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan1"
+        android:layout_marginTop="20dp"
+        android:text="Judul Ebook : " />
+
+    <EditText
+        android:id="@+id/Ebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan1"
+        android:layout_toRightOf="@id/tampilan2" />
+
+    <TextView
+        android:id="@+id/tampilan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan2"
+        android:layout_marginTop="20dp"
+        android:text="Jumlah Beli : " />
+
+    <EditText
+        android:id="@+id/JmlBeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan2"
+        android:layout_toRightOf="@id/tampilan3" />
+
+    <TextView
+        android:id="@+id/tampilan4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan3"
+        android:layout_marginTop="20dp"
+        android:text="Harga : Rp " />
+
+    <EditText
+        android:id="@+id/Harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan3"
+        android:layout_toRightOf="@id/tampilan4" />
+
+    <TextView
+        android:id="@+id/tampilan5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan4"
+        android:layout_marginTop="20dp"
+        android:text="Uang Bayar : Rp " />
+
+    <EditText
+        android:id="@+id/Uang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan4"
+        android:layout_toRightOf="@id/tampilan5" />
+
+    <Button
+        android:id="@+id/BtnProses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tampilan5"
+        android:text="PROSES" />
+
+    <TextView
+        android:id="@+id/OutTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnProses" />
+
+    <TextView
+        android:id="@+id/OutKembali"
+        android:layout_below="@id/OutTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OutKembali"
+        android:text="reset data" />
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OutKembali"
+        android:layout_alignParentRight="true"
+        android:text="Keluar" />
+
+</RelativeLayout>
