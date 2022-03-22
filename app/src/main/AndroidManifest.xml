@@ -15,10 +15,16 @@
         android:theme="@style/Theme.Chapter3"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".Parcel.Dua"
+            android:name=".parcel.Outbml"
             android:exported="true" />
         <activity
-            android:name=".Parcel.Satu"
+            android:name=".parcel.Inputbml"
+            android:exported="true" />
+        <activity
+            android:name=".parcel.Dua"
+            android:exported="true" />
+        <activity
+            android:name=".parcel.Satu"
             android:exported="true" />
         <activity
             android:name=".serializable.Second"

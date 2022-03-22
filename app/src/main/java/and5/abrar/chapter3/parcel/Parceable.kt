@@ -1,4 +1,4 @@
-package and5.abrar.chapter3.Parcel
+package and5.abrar.chapter3.parcel
 
 import android.os.Parcelable
 

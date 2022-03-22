@@ -1,7 +1,6 @@
-package and5.abrar.chapter3.Parcel
+package and5.abrar.chapter3.parcel
 
 import and5.abrar.chapter3.R
-import and5.abrar.chapter3.serializable.PersonParcel
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_dua.*
