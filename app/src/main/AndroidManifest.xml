@@ -15,6 +15,21 @@
         android:theme="@style/Theme.Chapter3"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".bottomnav.BerandaGojek"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".latihanfragment.Awal"
+            android:exported="true" />
+        <activity
+            android:name=".fragment.HalamanUtama"
+            android:exported="true" />
+        <activity
             android:name=".parcel.Outbml"
             android:exported="true" />
         <activity
@@ -75,13 +90,8 @@
             android:exported="true" />
         <activity
             android:name=".Inputnilai"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="true"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".Latihan"
             android:exported="true" />

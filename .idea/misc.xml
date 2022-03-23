@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.24375" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/drawable/navigation_selector.xml" value="0.24375" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_activty_a.xml" value="0.19429347826086957" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_activty_b.xml" value="0.19429347826086957" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_activty_inputnilai.xml" value="0.18885869565217392" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_activty_outnilai.xml" value="0.103125" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_awal.xml" value="0.16530797101449277" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_beranda.xml" value="0.176" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_beranda_gojek.xml" value="0.16530797101449277" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_dua.xml" value="0.103125" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_first.xml" value="0.1716485507246377" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_halaman_dua.xml" value="0.19927536231884058" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_halaman_utama.xml" value="0.16530797101449277" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_home.xml" value="0.103125" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_inputbml.xml" value="0.1" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_kalkulator_sederhana.xml" value="0.19429347826086957" />
@@ -30,6 +35,14 @@
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_second.xml" value="0.1716485507246377" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_web.xml" value="0.103125" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/activity_web_view.xml" value="0.19927536231884058" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_beranda.xml" value="0.103125" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_chat.xml" value="0.103125" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_first.xml" value="0.16530797101449277" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_fragmentsatu.xml" value="0.16530797101449277" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_pesanan.xml" value="0.103125" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_promo.xml" value="0.264" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/layout/fragment_second.xml" value="0.16530797101449277" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter3/app/src/main/res/menu/menu_navigation.xml" value="0.2234375" />
       </map>
     </option>
   </component>
